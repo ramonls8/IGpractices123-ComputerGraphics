@@ -1,0 +1,4 @@
+/home/ramonls/Documents/IGprac/ig-pracs-plantilla/build/CMakeFiles/debug_exe.dir
+/home/ramonls/Documents/IGprac/ig-pracs-plantilla/build/CMakeFiles/release_exe.dir
+/home/ramonls/Documents/IGprac/ig-pracs-plantilla/build/CMakeFiles/edit_cache.dir
+/home/ramonls/Documents/IGprac/ig-pracs-plantilla/build/CMakeFiles/rebuild_cache.dir

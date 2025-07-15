@@ -1,0 +1,120 @@
+{
+  "folders":
+  [ { "name": "IG-BUILD-LINUX",
+      "path": "."
+    },
+    { "name": "MATERIALES",
+      "path": "../../materiales"
+    },
+    { "name": "FUENTES",
+      "path": "../../src"
+    }
+  ],
+
+  "settings" :
+  {
+    // es importante decirle aquí a IntelliSense que use el compilador de GNU, 
+    // fijando la variable "compilerPath" a lo que sea. Si no se hace así y se 
+    // tiene también instalado el compilador clang, entonces vscode se hace un 
+    // lio con los includes, y señala con subrayado errores de includes imposibles 
+    // de quitar 
+    "C_Cpp.default.compilerPath" : "/usr/bin/g++", 
+    
+    "C_Cpp.default.includePath"      : 
+    [ 
+      "${workspaceFolder:FUENTES}",
+      "${workspaceFolder:MATERIALES}/src-cpp/**", 
+      "${default}"
+    ],
+
+    "files.associations": 
+    {
+      "iostream": "cpp",
+      "deque": "cpp",
+      "string": "cpp",
+      "vector": "cpp",
+      "cmath": "cpp",
+      "cctype": "cpp",
+      "clocale": "cpp",
+      "csignal": "cpp",
+      "cstdarg": "cpp",
+      "cstddef": "cpp",
+      "cstdio": "cpp",
+      "cstdlib": "cpp",
+      "cstring": "cpp",
+      "ctime": "cpp",
+      "cwchar": "cpp",
+      "cwctype": "cpp",
+      "array": "cpp",
+      "atomic": "cpp",
+      "strstream": "cpp",
+      "bit": "cpp",
+      "*.tcc": "cpp",
+      "bitset": "cpp",
+      "chrono": "cpp",
+      "compare": "cpp",
+      "complex": "cpp",
+      "concepts": "cpp",
+      "condition_variable": "cpp",
+      "cstdint": "cpp",
+      "list": "cpp",
+      "map": "cpp",
+      "set": "cpp",
+      "unordered_map": "cpp",
+      "exception": "cpp",
+      "algorithm": "cpp",
+      "functional": "cpp",
+      "iterator": "cpp",
+      "memory": "cpp",
+      "memory_resource": "cpp",
+      "numeric": "cpp",
+      "optional": "cpp",
+      "random": "cpp",
+      "ratio": "cpp",
+      "string_view": "cpp",
+      "system_error": "cpp",
+      "tuple": "cpp",
+      "type_traits": "cpp",
+      "utility": "cpp",
+      "fstream": "cpp",
+      "initializer_list": "cpp",
+      "iomanip": "cpp",
+      "iosfwd": "cpp",
+      "istream": "cpp",
+      "limits": "cpp",
+      "mutex": "cpp",
+      "new": "cpp",
+      "numbers": "cpp",
+      "ostream": "cpp",
+      "semaphore": "cpp",
+      "sstream": "cpp",
+      "stdexcept": "cpp",
+      "stop_token": "cpp",
+      "streambuf": "cpp",
+      "thread": "cpp",
+      "cfenv": "cpp",
+      "cinttypes": "cpp",
+      "typeindex": "cpp",
+      "typeinfo": "cpp",
+      "valarray": "cpp",
+      "variant": "cpp"
+    }
+
+  },
+
+  // indicar extensiones recomendadas y extensiones que no se deben usar (y que no queremos que se recomienden)
+  "extensions": {
+    "recommendations": 
+    [ 
+      "ms-vscode.cpptools", 
+      "ms-vscode.cpptools-extension-pack", 
+      "ms-vscode.cpptools-themes", 
+      "slevesque.shader"    // soporte para archivos .glsl en GLSL
+    ],
+    "unwantedRecommendations": 
+    [
+      "ms-vscode.makefile-tools",  // no queremos que VS code gestione makefiles 
+      "ms-vscode.cmake-tools"      // tampoco los archivos 'CMakeFiles.txt'
+    ]
+  },
+}
