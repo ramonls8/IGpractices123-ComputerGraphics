@@ -4,8 +4,8 @@ Practice 1, 2 and 3 of the Informática Gráfica (Computer Graphics) course in t
 
 The objective of these practices is to model different 3D models and scenes using OpenGL.
 
-<img src="./README_FILES/Can.png" style="width:50%;">
-<img src="./README_FILES/Pawn.png" style="width:50%;">
+<img src="./README_FILES/Can.png" style="width:45%;">
+<img src="./README_FILES/Pawn.png" style="width:45%;">
 <img src="./README_FILES/RotatingRectangles.gif" style="width:75%;">
 <img src="./README_FILES/Table.gif" style="width:75%;">
 <img src="./README_FILES/Klinklang.gif" style="width:75%;">
